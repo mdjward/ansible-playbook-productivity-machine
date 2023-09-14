@@ -1,0 +1,51 @@
+roles:
+  - name: mdjward.1password-cli
+    src: git+https://github.com/mdjward/ansible-role-1password-cli
+
+  - name: mdjward.awscli-v2
+    src: git+https://github.com/mdjward/ansible-role-awscli-v2
+
+  - name: mdjward.eng-git-clone
+    src: git+https://github.com/mdjward/ansible-role-eng-git-clone
+
+  - name: mdjward.eng-tooling
+    src: git+https://github.com/mdjward/ansible-role-eng-tooling
+
+  - name: mdjward.filesystems
+    src: git+https://github.com/mdjward/ansible-role-filesystems
+
+  - name: mdjward.gpg-keys
+    src: git+https://github.com/mdjward/ansible-role-gpg-keys
+
+  - name: mdjward.jumpcloud
+    src: git+https://github.com/mdjward/ansible-role-jumpcloud
+
+  - name: mdjward.net-tooling
+    src: git+https://github.com/mdjward/ansible-role-net-tooling
+
+  - name: mdjward.openssh
+    src: git+https://github.com/mdjward/ansible-role-openssh
+
+  - name: mdjward.openvpn-client
+    src: git+https://github.com/mdjward/ansible-role-openvpn-client
+
+  - name: mdjward.zsh-terminator
+    src: git+https://github.com/mdjward/ansible-role-zsh-terminator
+
+  - name: andrewrothstein.kubectl
+
+  - name: andrewrothstein.kubernetes_helm
+
+  - name: andrewrothstein.k9s
+
+  - name: ecgalaxy.google_chrome
+
+  - name: gantsign.visual-studio-code
+
+  - name: niziak.cpufrequtils
+    src: git+https://github.com/niziak/ansible-cpufrequtils
+    version: niziak/ondemand_fix
+
+  - name: pixelart.phpstorm
+    src: git+https://github.com/mdjward/ansible-role-phpstorm
+

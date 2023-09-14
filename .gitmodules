@@ -1,0 +1,6 @@
+[submodule "inventories"]
+	path = inventories
+	url = git@github.com:mdjward/ansible-inventory-productivity-machine
+[submodule "files"]
+	path = files
+	url = git@github.com:mdjward/ansible-files-productivity-machine

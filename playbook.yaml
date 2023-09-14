@@ -1,0 +1,44 @@
+- hosts: productivity_machine
+  pre_tasks:
+    - name: "Authorize Ansible SSH key"
+      ansible.posix.authorized_key:
+        user: "{{ ansible_user }}"
+        state: "present"
+        key: "{{ ansible_auth_public_key }}"
+  roles:
+    - role: mdjward.eng-tooling
+
+    - role: ecgalaxy.google_chrome
+
+    - role: gantsign.visual-studio-code
+
+    - role: pixelart.phpstorm
+      become: true
+      become_user: root
+
+    - role: mdjward.openssh
+
+    - role: mdjward.eng-git-clone
+
+    - role: mdjward.1password-cli
+
+    - role: mdjward.gpg-keys
+
+    - role: mdjward.net-tooling
+
+    - role: mdjward.filesystems
+
+    - role: andrewrothstein.kubectl
+
+    - role: andrewrothstein.kubernetes_helm
+
+    - role: andrewrothstein.k9s
+
+    - role: mdjward.zsh-terminator
+
+- hosts: monitored_machine
+  roles:
+
+    - role: mdjward.openvpn-client
+
+    - role: mdjward.jumpcloud
