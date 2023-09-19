@@ -34,6 +34,10 @@
 
     - role: andrewrothstein.k9s
 
+    - role: andrewrothstein.terraform
+
+    - role: andrewrothstein.terragrunt
+
     - role: mdjward.zsh-terminator
 
 - hosts: monitored_machine

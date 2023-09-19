@@ -36,6 +36,10 @@ roles:
 
   - name: andrewrothstein.kubernetes_helm
 
+  - name: andrewrothstein.terraform
+
+  - name: andrewrothstein.terragrunt
+
   - name: andrewrothstein.k9s
 
   - name: ecgalaxy.google_chrome
